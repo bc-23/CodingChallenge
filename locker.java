@@ -11,7 +11,7 @@
     }
    }
   }
-  for(int i = 0; i <= locker.length; i++){
+  for(int i = 0; i <= locker.length-1; i++){
    System.out.println(locker[i] + " " + i);
   }
  }
