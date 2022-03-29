@@ -2,12 +2,12 @@
  public static void main(String[] args) {
   boolean[] locker = new boolean[101];
     for(int i = 1; i <locker.length; i++){
-   for(int t = i; t < locker.length; t+=i){
-    if (locker[t] == false){
-     locker[t] = true;
+   for(int j = i; j < locker.length; j+=i){
+    if (locker[j] == false){
+     locker[j] = true;
     }else
     {
-     locker[t] = false;
+     locker[j] = false;
     }
    }
   }
